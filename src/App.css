@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
+}
+.navbar{
+    display: flex;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #37517E;
+    padding: 50px 0px;
+    color: white;
+}
+.section img{
+    width: 40%;
+   
+}
+.section a{
+    color: white;
+    text-decoration: none;
+    margin: 0 2rem;
+    font-size: 16px;
+}
+.section h2{
+    font-size: 45px;
+}
+.section p{
+    font-size: 20px;
+    /* color: rgba(255, 255, 255, 0.60); */
+    opacity: 60%;
+}
+.section-content{
+    width: 36%;
+}
+
+.section-button{
+    padding-top: 2rem;
+}
+.section button{
+    background-color: #47B2E4;
+    padding: 8px;
+    color: white;
+    width: 30%;
+    height: 55px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: none;
+}
+.section button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.30s;
+}
+.content{
+    padding:  50px 50px;
+    background-color: #F3F5FA;
+    text-align: center;
+}
+.content-text p{
+    padding-top: 1rem;
+}
+/* .content input{
+    width: 50%;
+    margin: 0 0 20px 0;
+} */
+.content h2{
+    color: #37517E;
+}
+.content input{
+    padding: 8px;
+    color: black;
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: #e6e3e3 0px 0px 2px 1px ;
+    outline: none;
+}
+.form-input{
+    width: 50%;
+}
+.content button{
+    /* background-color: rgb(255, 255, 255); */
+    padding: 8px;
+    position: absolute; 
+    height: 45px;
+    margin-left: 585px;
+    border: none;
+    border-radius: 40px;
+    width: 100px;
+    background-color: #47B2E4;
+    color: white;
+    font-size: 18px;
+}
+.content-button{
+    justify-content: center;
+    display: flex;
+    padding-top: 1rem;
+}
+.contact{
+    line-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+}
+.address h4{
+    font-size: 28px;
+}
+.address span{
+    font-weight: bold;
+}
+.contact p{
+    color: #777777;
+}
+.contact h4{
+    color: #37517E;
+}
+.our-sosial{
+    width: 20%;
+}
+.footer{
+    padding: 40px 50px;
+    background-color: #37517E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

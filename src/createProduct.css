@@ -1,0 +1,14 @@
+header {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  
+  .logo-bootstrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .logo-bootstrap p{
+    width: 50%;
+  }
